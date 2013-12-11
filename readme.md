@@ -1,4 +1,3 @@
-
 Plataphorma BlutBad
 =============================
 
@@ -28,8 +27,8 @@ En la plataforma:
 
 ```javascript
 Partidas.insert({
-                jugadores : [ {user_id: 11111, etc: etc},
-                              {user_id: 22222, etc: etc}, ... ],
+                jugadores : [ {user_id: 11111, fecha: dd/mm/aa},
+                              {user_id: 22222, fecha: dd/mm/aa etc}, ... ],
                 terminada: false,
                 });
 ```
@@ -143,4 +142,3 @@ Editar ReadMe:
 
 * [Como editar rearme(Markdown Cheatsheet)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-lists "Markdown Cheatsheet")
 * [Como editar rearme(Markdown Github Preview Online)](http://github-preview.herokuapp.com/ "Markdown GitHub Online")
-
